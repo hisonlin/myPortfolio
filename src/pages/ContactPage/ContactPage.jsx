@@ -2,17 +2,18 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Headers from '../../Component/Header/Header'
 
-const AboutPage = props => {
+const ContactPage = props => {
   return (
     <div>
-        <Headers />
-        <div>About</div>
+      <Headers />
+      <div>Contact</div>
+      
     </div>
   )
 }
 
-AboutPage.propTypes = {
+ContactPage.propTypes = {
 
 }
 
-export default AboutPage
+export default ContactPage

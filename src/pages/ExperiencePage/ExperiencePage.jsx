@@ -2,17 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Header from '../../Component/Header/Header'
 
-const ProjectsPage = props => {
+const ExperiencePage = props => {
   return (
     <div>
       <Header/>
-      <div>Projects</div>
+      <div>Experience</div>
     </div>
   )
 }
 
-ProjectsPage.propTypes = {
+ExperiencePage.propTypes = {
 
 }
 
-export default ProjectsPage
+export default ExperiencePage
