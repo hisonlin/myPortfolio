@@ -10,10 +10,10 @@ import Row from 'react-bootstrap/Row';
 
 const Header = props => {
   return (
-    <div style={{ marginLeft: "2vw", marginRight: "2vw" }}>
-      <Navbar expand='sm'>
+    <div id='topBar'>
+      <Navbar expand='sm' >
         <Container fluid id="headerContainer">
-          <Navbar.Brand className='gradient-text' href="/" style={{ fontSize: '4vh' }}>H.L.</Navbar.Brand>
+          <Navbar.Brand className='gradient-text' href="/" style={{ fontSize: '4vh'}}>H.L.</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-sm`}
