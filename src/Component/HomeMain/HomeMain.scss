@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=My+Soul&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
-.subtitle {
-    font-size: 2vh;
-    color: #7c7a7a;
-    letter-spacing: 0.5em;
-  }
+// .subtitle {
+//     font-size: 2vh;
+//     color: #7c7a7a;
+//     letter-spacing: 0.5em;
+//   }
   
 
 #logoContainer {
@@ -14,73 +14,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height:50vh;
+    height:40vh;
 }
-
-.glitch {
-  font-family: "Abril Fatface", serif;
-  letter-spacing: 0.1em;
-  color: #333;
-  font-size: 15vh;
-  animation: glitch 3s 1; /* Run once */
-  position: relative;
-}
-
-.glitch::before {
-  content: attr(data-text);
-  position: absolute;
-  left: -2px;
-  text-shadow: -5px 0 #555;
-  overflow: hidden;
-  top: 0;
-  animation: noise-1 3s linear alternate-reverse 1, glitch 3s 1 0.05s; /* Run once, with slight delay */
-}
-
-.glitch::after {
-  content: attr(data-text);
-  position: absolute;
-  left: 2px;
-  text-shadow: -5px 0 #999;
-  overflow: hidden;
-  top: 0;
-  animation: noise-2 3s linear alternate-reverse 1, glitch 3s 1; /* Run once */
-}
-
-@keyframes glitch {
-  1% {
-    transform: rotateX(10deg) skewX(70deg);
-  }
-
-  2% {
-    transform: rotateX(0deg) skewX(0deg);
-  }
-}
-
-@keyframes noise-1 {
-  $steps: 30;
-
-  @for $i from 1 through $steps {
-    #{percentage(math.div($i, $steps))} {
-      $top: random(100);
-      $bottom: random(101 - $top);
-      clip-path: inset(#{$top}px 0 #{$bottom}px 0);
-    }
-  }
-}
-
-@keyframes noise-2 {
-  $steps: 30;
-
-  @for $i from 0 through $steps {
-    #{percentage(math.div($i, $steps))} {
-      $top: random(100);
-      $bottom: random(101 - $top);
-      clip-path: inset(#{$top}px 0 #{$bottom}px 0);
-    }
-  }
-}
-
-
 
 .button {
   --offset: 10px;
@@ -90,7 +25,7 @@
   appearance: none;
   border: 0;
   background: transparent;
-  color: #999;
+  color: #555;
   text-transform: uppercase;
   letter-spacing: .25em;
   outline: none;
@@ -175,14 +110,70 @@
     padding: 0.4em 1.2em;
     font-size: 1vh;
   }
-  .glitch {
-    font-size: 10vh;
-  }
+  // .glitch {
+  //   font-size: 10vh;
+  // }
 }
 
-#line{
-  margin-top: 2vh;
-  height: 2vh;
-  width: 100%;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 15px 0px;
-}
+// .glitch {
+//   font-family: "Abril Fatface", serif;
+//   letter-spacing: 0.1em;
+//   color: #333;
+//   font-size: 15vh;
+//   animation: glitch 3s 1; /* Run once */
+//   position: relative;
+// }
+
+// .glitch::before {
+//   content: attr(data-text);
+//   position: absolute;
+//   left: -2px;
+//   text-shadow: -5px 0 #555;
+//   overflow: hidden;
+//   top: 0;
+//   animation: noise-1 3s linear alternate-reverse 1, glitch 3s 1 0.05s; /* Run once, with slight delay */
+// }
+
+// .glitch::after {
+//   content: attr(data-text);
+//   position: absolute;
+//   left: 2px;
+//   text-shadow: -5px 0 #999;
+//   overflow: hidden;
+//   top: 0;
+//   animation: noise-2 3s linear alternate-reverse 1, glitch 3s 1; /* Run once */
+// }
+
+// @keyframes glitch {
+//   1% {
+//     transform: rotateX(10deg) skewX(70deg);
+//   }
+
+//   2% {
+//     transform: rotateX(0deg) skewX(0deg);
+//   }
+// }
+
+// @keyframes noise-1 {
+//   $steps: 30;
+
+//   @for $i from 1 through $steps {
+//     #{percentage(math.div($i, $steps))} {
+//       $top: random(100);
+//       $bottom: random(101 - $top);
+//       clip-path: inset(#{$top}px 0 #{$bottom}px 0);
+//     }
+//   }
+// }
+
+// @keyframes noise-2 {
+//   $steps: 30;
+
+//   @for $i from 0 through $steps {
+//     #{percentage(math.div($i, $steps))} {
+//       $top: random(100);
+//       $bottom: random(101 - $top);
+//       clip-path: inset(#{$top}px 0 #{$bottom}px 0);
+//     }
+//   }
+// }

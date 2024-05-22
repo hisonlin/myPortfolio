@@ -1,5 +1,5 @@
 .skillContainer {
-  font-size: 10vh;
+  font-size: 6.5vh;
   font-weight: 900;
   letter-spacing: 0.5em;
   width: 100%;
@@ -17,10 +17,8 @@
 .underline-animation::after {
   content: '';
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 80%;
-  height: 2px; 
+  width: 50%;
+  height: 2px;
   background-color: currentColor; 
   transform: scaleX(0);
   transform-origin: 0 50%; 
@@ -223,6 +221,10 @@
   .skillContainer {
     font-size: 5vh;
   }
+  .underline-animation::after {
+    bottom: 0;
+  }
+
   .makeAwesome {
     margin-top: 3vh;
     font-size: 4vh;
