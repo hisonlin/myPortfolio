@@ -13,7 +13,7 @@ const Header = props => {
     <div id='topBar'>
       <Navbar expand='sm' >
         <Container fluid id="headerContainer">
-          <Navbar.Brand className='gradient-text' href="/" style={{ fontSize: '4vh'}}>H.L.</Navbar.Brand>
+          <Navbar.Brand className='gradient-text' href="myPortfolio/" style={{ fontSize: '4vh'}}>H.L.</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-sm`}
@@ -27,10 +27,10 @@ const Header = props => {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1" style={{ fontSize: '2.5vh' }}>
-                <Nav.Link className="nav-link-item" href="/about">About</Nav.Link>
-                <Nav.Link className="nav-link-item" href="/experience">Experience</Nav.Link>
-                <Nav.Link className="nav-link-item" href="/projects">Projects</Nav.Link>
-                <Nav.Link className="nav-link-item" href="/contact">Contact</Nav.Link>
+                <Nav.Link className="nav-link-item" href="myPortfolio/about">About</Nav.Link>
+                <Nav.Link className="nav-link-item" href="myPortfolio/experience">Experience</Nav.Link>
+                <Nav.Link className="nav-link-item" href="myPortfolio/projects">Projects</Nav.Link>
+                <Nav.Link className="nav-link-item" href="myPortfolio/contact">Contact</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
