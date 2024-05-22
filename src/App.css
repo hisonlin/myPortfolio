@@ -7,9 +7,5 @@
 div:hover{
   font-size: 1.1em;
 } */
-@import 'bootstrap/dist/css/bootstrap.min.css';
 
-body{
-  color: #333;
-}
 
