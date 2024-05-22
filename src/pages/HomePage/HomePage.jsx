@@ -5,6 +5,7 @@ import HomeMain from '../../Component/HomeMain/HomeMain'
 
 import SkillCard from '../../Component/Skill/SkillCard'
 import MakeAwesome from '../../Component/MakeAwesome/MakeAwesome'
+import Footer from '../../Component/Footer/Footer'
 
 const HomePage = props => {
   return (
@@ -12,6 +13,7 @@ const HomePage = props => {
     <Header />
     <HomeMain/>
     <SkillCard/>
+    <Footer/>
   </>
   )
 }

@@ -210,6 +210,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto repeat(5, 1fr) auto;
     margin-top: 1vh;
+    row-gap: 3vh;
   }
   .skillContainer {
     font-size: 5vh;
