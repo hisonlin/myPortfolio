@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import './HomeMain.scss'
+import Logo from '../Logo/Logo';
 
 const urls = {
     linkedin: 'https://www.linkedin.com/in/hisonlin/',
@@ -15,10 +16,11 @@ const urls = {
 const HomeMain = props => {
   return (
     <div id="logoContainer">
-      <div className="subtitle">Portfolio By Hison Lin</div>
-      <div className="glitch" data-text="H.Lin">H.Lin</div>
-      <div className="subtitle">FULL-STACK DEVELOPER</div>
-      <div style={{ width: "100%", display: "flex", justifyContent: "space-evenly", marginTop: "5vh" }}>
+      {/* <div className="subtitle">Portfolio By Hison Lin</div> */}
+      {/* <div className="glitch" data-text="H.Lin">H.Lin</div> */}
+      <Logo />
+      {/* <div className="subtitle">FULL-STACK DEVELOPER</div> */}
+      <div style={{ width: "100%", display: "flex", justifyContent: "space-evenly" }}>
         <div>
           <button className="button" onClick={() => handleButtonClick('linkedin')}> 
             Linkedin

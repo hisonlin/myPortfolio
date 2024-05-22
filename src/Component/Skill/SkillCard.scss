@@ -171,6 +171,14 @@
   padding-top: 5vh;
 }
 
+.programming-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+  padding-top: 5vh;
+
+}
+
 .skillCard {
   grid-row: span 2;
 }
@@ -255,6 +263,13 @@
 
   .content{
     padding-top: 0;
+  }
+
+  .programming-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%;
+  
   }
 }
 

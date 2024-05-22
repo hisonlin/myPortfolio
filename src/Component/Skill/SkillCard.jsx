@@ -19,6 +19,7 @@ const SkillCard = (props) => {
               <div className="text">NodeJS</div>
               <div className="text">ReactJS</div>
               <div className="text">REST API</div>
+              <div className="text">JSON</div>
               <div className="text">Animation</div>
               <div className="text">Database</div>
               <div className="text">Responsive Design</div>
