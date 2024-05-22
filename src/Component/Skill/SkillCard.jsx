@@ -68,8 +68,9 @@ const SkillCard = (props) => {
           <div className="content">           
               <div className="text">Java</div>
               <div className="text">Kotlin</div>
+              <div className="text">XML</div>
               <div className="text">Material Design 3</div>
-              <div className="text">Compose</div>
+              <div className="text">Jetpack Compose</div>
               <div className="text">Android Studio</div>
           </div>
         </div>
