@@ -39,55 +39,55 @@
   }
 }
 
-.keepLearnContainer {
-  font-size: 6vh;
-  font-weight: 900;
-  letter-spacing: 0.2em;
-  width: 100%;
+// .keepLearnContainer {
+//   font-size: 6vh;
+//   font-weight: 900;
+//   letter-spacing: 0.2em;
+//   width: 100%;
  
-}
+// }
 
-.dot-animation {
-  position: relative;
-  display: inline-block;
+// .dot-animation {
+//   position: relative;
+//   display: inline-block;
   
-}
+// }
 
-.dot-animation::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  height: 100%;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  animation: dotAppears 5s  infinite linear;
-}
+// .dot-animation::after {
+//   content: '';
+//   position: absolute;
+//   top: 0;
+//   height: 100%;
+//   display: flex;
+//   justify-content: start;
+//   align-items: center;
+//   animation: dotAppears 5s  infinite linear;
+// }
 
-@keyframes dotAppears {
-  0%, 20% {
-    content: 'Upskilling'; 
-  }
-  21%, 40% {
-    content: 'Upskilling.'; 
-  }
-  41%, 60% {
-    content: 'Upskilling..'; 
-  }
-  61%, 99% {
-    content: 'Upskilling...'; 
-  }
-  100% {
-    content: 'Upskilling'; 
-  }
-}
+// @keyframes dotAppears {
+//   0%, 20% {
+//     content: 'Upskilling'; 
+//   }
+//   21%, 40% {
+//     content: 'Upskilling.'; 
+//   }
+//   41%, 60% {
+//     content: 'Upskilling..'; 
+//   }
+//   61%, 99% {
+//     content: 'Upskilling...'; 
+//   }
+//   100% {
+//     content: 'Upskilling'; 
+//   }
+// }
 
 .mainContainer {
   margin-top: 10vh;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   column-gap: 2vw;
   row-gap: 2vh;
   padding: 5vh;
@@ -171,10 +171,6 @@
   padding-top: 5vh;
 }
 
-li {
-  margin-bottom: 2vh;
-}
-
 .skillCard {
   grid-row: span 2;
 }
@@ -218,7 +214,7 @@ li {
   .skillContainer {
     font-size: 5vh;
   }
-  .keepLearnContainer {
+  .makeAwesome {
     margin-top: 3vh;
     font-size: 4vh;
     grid-row: 7;

@@ -4,6 +4,7 @@ import Header from '../../Component/Header/Header'
 import HomeMain from '../../Component/HomeMain/HomeMain'
 
 import SkillCard from '../../Component/Skill/SkillCard'
+import MakeAwesome from '../../Component/MakeAwesome/MakeAwesome'
 
 const HomePage = props => {
   return (

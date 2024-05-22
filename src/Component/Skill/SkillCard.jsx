@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './SkillCard.scss';
+import MakeAwesome from '../MakeAwesome/MakeAwesome';
 
 const SkillCard = (props) => {
   return (
@@ -66,9 +67,9 @@ const SkillCard = (props) => {
           <div className="content">           
               <div className="text">Java</div>
               <div className="text">Kotlin</div>
-              <div className="text">Android Studio</div>
               <div className="text">Material Design 3</div>
-              <div className="text">Compose</div>  
+              <div className="text">Compose</div>
+              <div className="text">Android Studio</div>
           </div>
         </div>
         <div className="face face2 android-face">
@@ -91,9 +92,8 @@ const SkillCard = (props) => {
           <div className="cardHead">Languages</div>
         </div>
       </div>
-      <div className="keepLearnContainer dot-animation">
-        <div></div>
-      </div>
+      <div className='makeAwesome'><MakeAwesome /></div>
+      
     </div>
   );
 };
