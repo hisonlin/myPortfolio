@@ -6,7 +6,7 @@ const Timeline = props => {
     return (
         <div>
             <section id='timeline'>
-                <h1>Hison Timeline</h1>
+                <h1>Hison's Timeline</h1>
                 <div class="demo-card-wrapper">
                     <div class="demo-card demo-card--step1">
                         <div class="head">

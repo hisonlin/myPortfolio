@@ -106,7 +106,7 @@ $counter: $items - $rows + 2;
 }
 
 #timeline {
-    padding: 100px 0;
+    padding: 5vh 0;
     background: $background;
     border-top: $border;
     border-bottom: $border;
@@ -116,7 +116,7 @@ $counter: $items - $rows + 2;
         text-align: center;
         font-size: 3rem;
         font-weight: 200;
-        margin-bottom: 20px;
+        margin-bottom: 5vh;
     }
 
     .demo-card-wrapper {
