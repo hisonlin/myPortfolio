@@ -28,7 +28,6 @@ const Header = props => {
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1" style={{ fontSize: '2.5vh' }}>
                 <Nav.Link className="nav-link-item" href="/myPortfolio/about">About</Nav.Link>
-                <Nav.Link className="nav-link-item" href="/myPortfolio/experience">Experience</Nav.Link>
                 <Nav.Link className="nav-link-item" href="/myPortfolio/projects">Projects</Nav.Link>
                 <Nav.Link className="nav-link-item" href="/myPortfolio/contact">Contact</Nav.Link>
               </Nav>
