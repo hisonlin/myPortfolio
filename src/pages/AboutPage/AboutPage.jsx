@@ -19,7 +19,7 @@ const AboutPage = props => {
           <p>At home, I am a father to two children, enjoy exploring the world with my children. I also love playing various sports like basketball, football, and badminton and I am passionate about studying various development technologies. I am committed to continuous learning and becoming a better version of myself, eagerly anticipating new challenges in the future.</p>
         </div>
         <div className='aboutImage'>
-          <div className='photo'/>
+          <img src='/photo2.jpg' alt='hison'/>
         </div>
       </div>
       <div className="timeline">
