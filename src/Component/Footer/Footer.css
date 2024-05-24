@@ -30,6 +30,15 @@
     cursor: pointer;
 }
 
+.copyright{
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    display: flex;
+    justify-content: end;
+    padding: 5vh;
+    color: #999;
+}
+
 @media only screen and (max-width:1130px){
     .firstSentence{
         font-size: 1.8vh;
