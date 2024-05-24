@@ -41,7 +41,6 @@
 .aboutImage img {
     width: 100%;
     border-radius: 10px;
-    background-image: url(/img1.JPG);
 }
 
 @media screen and (max-width: 1030px) {
