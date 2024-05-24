@@ -33,7 +33,7 @@ const ContactPage = props => {
             <div style={{letterSpacing:'0.1em'}}>hisonlinca@gmail.com</div>
           </div>
           <div className='contact-footer-right'>
-            <div className='copyright' style={{fontWeight:'600', letterSpacing:'0.2em'}}>© HISON LIN 2024</div>
+            <div className='contact-copyright' style={{fontWeight:'600', letterSpacing:'0.2em'}}>© HISON LIN 2024</div>
             <div className='logo'><HeaderLogo /></div>           
           </div>
         </div>
